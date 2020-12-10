@@ -1,0 +1,7 @@
+version: '3'
+services: 
+  build:
+    build: .
+    volumes: 
+      - ./physiotherapy-web-frontend:/usr/src/app/physiotherapy-web-frontend
+      - ./physiotherapy-web-backend:/usr/src/app/physiotherapy-web-backend

@@ -1,0 +1,13 @@
+version: '3'
+services: 
+  server:
+    environment: 
+      - SQLALCHEMY_DATABASE_URI=sqlite:///local.db
+      - CERT_PATH=../certs
+
+    build: ./physiotherapy-web-backend
+    volumes: 
+      - ./physiotherapy-web-backend:/usr/src/app
+      - ${CERT_PATH}:/usr/src/certs
+    ports: 
+      - 2000:2000
