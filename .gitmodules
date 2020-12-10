@@ -1,0 +1,6 @@
+[submodule "physiotherapy-web-backend"]
+	path = physiotherapy-web-backend
+	url = https://github.com/vMarcelino/physiotherapy-web-backend.git
+[submodule "physiotherapy-web-frontend"]
+	path = physiotherapy-web-frontend
+	url = https://github.com/kaiquesacchi/physiotherapy-web-frontend.git
